@@ -62,6 +62,7 @@ function Chat({ socket, username, room }) {
         </ScrollToBottom>
       </div>
       <div className="chat-footer">
+        {/* the comment part is for adding smart text editor but by adding this part in front-end i cannot able to send message from client to another */}
         {/* <ReactQuill
           value={currentMessage}
           onChange={(event) => {
